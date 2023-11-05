@@ -1,0 +1,23 @@
+#spring.datasource.url=jdbc:postgresql://localhost:5432/kimyo_db
+#spring.datasource.password=kimyo_pwd
+#spring.datasource.username=kimyo_user
+#
+#spring.jpa.hibernate.ddl-auto=create
+#spring.jpa.database=postgresql
+#spring.jpa.show-sql=true
+#
+#spring.datasource.driver-class-name=org.postgresql.Driver
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/kimyo_db
+    password: kimyo_pwd
+    username: kimyo_user
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database: postgresql
+    show-sql: true
+
+
